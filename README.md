@@ -1,4 +1,4 @@
-# Electricity Price Api Challenge (FastAPI + Docker)
+# Electricity Price Api Challenge (Python 3.13.5 + FastAPI + Docker)
 
 This coding challenge creates a simple FastAPI web service that calculates the mean price for a given state from a CSV file.
 
@@ -24,7 +24,7 @@ docker compose up
 **Example:**
 
 ```
-http://localhost:8000/mean_price?state=Vic
+http://localhost:8000/mean-price?state=Vic
 ```
 
 ### Swagger UI:
@@ -40,7 +40,7 @@ Make sure you have Python and dependencies installed locally.
 ### 1. Create a virtual environment (optional but recommended)
 
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 ```
 
