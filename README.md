@@ -33,6 +33,14 @@ http://localhost:8000/mean-price?state=Vic
 http://localhost:8000/docs
 ```
 
+## Docker Cleanup
+
+Stop and remove the container:
+
+```bash
+docker compose down
+```
+
 ## Running Unit Tests Locally
 
 Make sure you have Python and dependencies installed locally.
@@ -48,19 +56,10 @@ source .venv/bin/activate
 
 ```bash
 pip install -r requirements.txt
-pip install pytest
 ```
 
 ### 3. Run the tests
 
 ```bash
 pytest test_main.py
-```
-
-## Docker Cleanup
-
-Stop and remove the container:
-
-```bash
-docker compose down
 ```
